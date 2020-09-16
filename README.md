@@ -4,6 +4,16 @@
 
 > __FEEN__ (Forsyth–Edwards Expanded Notation) support for the Crystal language.
 
+## Overview
+
+This is an implementation of [FEEN](https://developer.sashite.com/specs/forsyth-edwards-expanded-notation), a generic format that can be used for serializing and deserializing chess positions.
+
+The main chess variants are supported, including [Chess](https://en.wikipedia.org/wiki/Chess), [Janggi](https://en.wikipedia.org/wiki/Janggi), [Makruk](https://en.wikipedia.org/wiki/Makruk), [Shogi](https://en.wikipedia.org/wiki/Shogi), [Xiangqi](https://en.wikipedia.org/wiki/Xiangqi).
+
+More exotic variants are also supported, like: [Dai dai shogi](https://en.wikipedia.org/wiki/Dai_dai_shogi), [Four-player chess](https://en.wikipedia.org/wiki/Four-player_chess), or [Three-dimensional chess](https://en.wikipedia.org/wiki/Three-dimensional_chess) 🖖
+
+![3D chess on Star Trek (from the episode "Court Martial")](https://github.com/sashite/feen.cr/raw/master/star-trek-chess.jpg)
+
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
